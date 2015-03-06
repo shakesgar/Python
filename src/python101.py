@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import urllib
 
 
-response = urllib.urlopen("http://www.google.com")
+response = urllib.urlopen("http://www.independent.ie/news")
 doc = response.read()
 
 soup = BeautifulSoup(doc)
